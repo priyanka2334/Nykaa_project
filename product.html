@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing Page</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <h1>Product Listing Page</h1>
+    
+    <div id="filters">
+        <label for="sort">Sort by:</label>
+        <select id="sort">
+            <option value="default">Default</option>
+            <option value="low-to-high">Price: Low to High</option>
+            <option value="high-to-low">Price: High to Low</option>
+        </select>
+        
+        <label for="brand-filter">Brand:</label>
+        <select id="brand-filter">
+            <option value="all">All</option>
+        </select>
+        
+        <label for="price-filter">Price:</label>
+        <input type="range" id="price-filter" min="0" max="1000" step="10">
+        <span id="price-value"></span>
+    </div>
+    
+    <div id="product-list"></div>
+
+    <h2>Cart</h2>
+    <div id="cart"></div>
+
+    <script src="product.js"></script>
+</body>
+</html>

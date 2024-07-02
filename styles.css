@@ -1,0 +1,134 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.section-img-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-container, .img-container1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.img-container a, .img-container1 a {
+    margin: 5px;
+}
+
+.img-container img, .img-container1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.view-btn-container {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #ff007f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn i {
+    margin-left: 5px;
+} */
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.section-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-img-main {
+    width: 100%;
+    background-image: linear-gradient(hsl(0, 33%, 99%), rgb(234, 231, 229));
+}
+
+.main-img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.main-img {
+    width: 100%;
+    max-width: 1800px;
+}
+
+.img-container,.img-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-container a {
+    margin: 5px;
+    flex: 0 0 calc(14.28% - 10px);
+}
+
+.img-container a img ,.img-container1 a img{
+    width: 100%;
+    height: auto;
+}
+
+.img-container1 a img {
+    border-radius: 10px;
+}
+
+.img-container1 a {
+    margin: 5px;
+    flex: 0 0 calc(31%);
+}
+
+.view-btn-container{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    padding: 0.5rem 4rem;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
