@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.footer {
+    background-color: #fff;
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer .benefits {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+.footer .benefits div {
+    flex: 1;
+    padding: 10px;
+}
+.footer .benefits div img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+.footer .bottom-section {
+    background-color: #e6007e;
+    color: white;
+    padding: 20px 0;
+}
+.footer .bottom-section a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer .popular-links {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+}
+.footer .popular-links h4 {
+    margin-bottom: 10px;
+}
+.footer .popular-links a {
+
+    color:#594949;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.footer-middle {
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 24px;
+    text-decoration: none;
+}
