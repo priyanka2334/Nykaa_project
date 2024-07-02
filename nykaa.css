@@ -259,6 +259,80 @@ button:hover {
 .nav button:hover {
     background-color: rgba(0, 0, 0, 0.7);
 }
+/* Mahima */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.section-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-img-main {
+    width: 100%;
+    background-image: linear-gradient(hsl(0, 33%, 99%), rgb(234, 231, 229));
+}
+
+.main-img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.main-img {
+    width: 100%;
+    max-width: 1800px;
+}
+
+.img-container,.img-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.img-container a {
+    margin: 5px;
+    flex: 0 0 calc(14.28% - 10px);
+}
+
+.img-container a img ,.img-container1 a img{
+    width: 100%;
+    height: auto;
+}
+
+.img-container1 a img {
+    border-radius: 10px;
+}
+
+.img-container1 a {
+    margin: 5px;
+    flex: 0 0 calc(31%);
+}
+
+.view-btn-container{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    padding: 0.5rem 4rem;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+
+/* footer */
+
 .footer {
     background-color: #fff;
     color: #333;
