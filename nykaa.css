@@ -391,3 +391,63 @@ body {
     font-size: 24px;
     text-decoration: none;
 }
+
+
+
+/* 2 footer   */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer .top-section {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #555;
+}
+.footer .top-section div {
+    flex: 1;
+}
+.footer .top-section div input {
+    padding: 5px;
+    width: 70%;
+    margin-right: 10px;
+    border: none;
+}
+.footer .top-section div button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #e60023;
+    color: white;
+    cursor: pointer;
+}
+.footer .bottom-section {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    background-color: #666;
+}
+.footer .bottom-section div {
+    flex: 1;
+    text-align: left;
+}
+.footer .bottom-section div h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.footer .bottom-section div ul {
+    list-style: none;
+    padding: 0;
+}
+.footer .bottom-section div ul li {
+    margin-bottom: 5px;
+}
+.footer .bottom-section div ul li a {
+    color: white;
+    text-decoration: none;
+}
+.footer .bottom-section div ul li a:hover {
+    text-decoration: underline;
+}
